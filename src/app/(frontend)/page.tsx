@@ -198,13 +198,8 @@ export default function HomePage() {
                 </p>
                 <h2 className="text-2xl tracking-tight text-gray-900 dark:text-white">Missão</h2>
                 <p className="mt-2 mb-4 text-gray-600 dark:text-gray-400 leading-relaxed">
-                  Oferecer soluções adequadas no campo do conhecimento, visando desenvolver seus
-                  membros e integrar alunos, professores e empresários, proporcionando-lhes a
-                  possibilidade de adquirir e disseminar conhecimentos, unindo a teoria acadêmica
-                  com a realidade prática demandada pelo mercado, principalmente junto às micro e
-                  pequenas empresas comerciais, industriais ou prestadoras de serviços, considerando
-                  o desenvolvimento ambiental em seus aspectos econômicos, sociais, tecnológicos,
-                  culturais e naturais de forma ética e responsável.
+                  Oferecer soluções que integrem alunos, professores e empresários, unindo teoria e prática para desenvolver 
+                  conhecimentos voltados ao mercado — especialmente para micro e pequenas empresas — com foco no desenvolvimento sustentável, ético e responsável.
                 </p>
                 <h2 className="text-2xl tracking-tight text-gray-900 dark:text-white">Visão</h2>
                 <p className="mt-2 mb-4 text-gray-600 dark:text-gray-400 leading-relaxed">
