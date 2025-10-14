@@ -185,8 +185,8 @@ export default function HomePage() {
         {/* About Section */}
         <section className="py-16 sm:py-24">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-              <div>
+            <div className="grid grid-cols-12 gap-8">
+              <div className="col-span-12 lg:col-span-6">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
                   Sobre a Empresa Junior FATEC
                 </h2>
@@ -213,23 +213,42 @@ export default function HomePage() {
                   possibilite a seus membros se desenvolverem como pessoas e profissionais.
                 </p>
                 <h2 className="text-2xl tracking-tight text-gray-900 dark:text-white">Valores</h2>
-                <ol
-                  className="mt-2 mb-4 text-gray-600 dark:text-gray-400 leading-relaxed list-decimal list-inside"
-                >
+                <ol className="mt-2 mb-4 text-gray-600 dark:text-gray-400 leading-relaxed list-decimal list-inside">
                   <li>Respeito entre os colaboradores e seus clientes;</li>
                   <li>Preocupação com questões sociais e sustentáveis;</li>
                   <li>Respeito com as diferenças culturais, religiosas e sociais;</li>
                   <li>Inovação, crescimento e coragem.</li>
                 </ol>
               </div>
-              <div className="w-full aspect-w-4 aspect-h-3 rounded-lg overflow-hidden">
-                <div
-                  className="w-full h-full bg-cover bg-center"
-                  style={{
-                    backgroundImage:
-                      'url("https://lh3.googleusercontent.com/aida-public/AB6AXuCPHh5eU4Qd74ZhevsgkLjofdQ8zJAn73LXST13YKe_ipM2yi11C0DnJExJPX8CTCy-7nOhu8-_vFJ_mFunaUdPnJrw4qf6eg4bBp20a8iBeqMzEe-abAl1QhTLABjIY9FHtwlJAS9rRZIHPVmqmd0ODMUCSiZIv2I_mgex54NrxXvqblcsxDPI3S1Mf2CMxFHj-yJsjAy7lapCPiUCeRPLfsux1az0Qa_Yz5mf76S_B148BKg57a9u_-HxQ6ck7OYldye1qxHR2aw")',
-                  }}
-                />
+
+              {/* Card Vestibular */}
+              <div className="col-span-12 lg:col-span-6 flex items-center justify-center">
+                <div className="w-full max-w-md">
+                  <a
+                    href="https://vestibular.fatec.sp.gov.br/home/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block overflow-hidden rounded-lg transform transition-transform duration-300 hover:scale-[1.02]"
+                  >
+                    <div className="p-3 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
+                      <div className="relative border-4 border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+                        <img
+                          src="/images/vest_20261.jpeg"
+                          alt="Vestibular FATEC 2026"
+                          className="w-full h-auto"
+                        />
+                      </div>
+                      <div className="mt-4 p-2 text-center">
+                        <p className="text-lg font-semibold text-gray-900 dark:text-white">
+                          Vestibular FATEC 2026
+                        </p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400 mt-1 group-hover:text-primary transition-colors">
+                          Inscreva-se já!
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
