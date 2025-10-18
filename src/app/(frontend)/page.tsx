@@ -235,7 +235,7 @@ export default function HomePage() {
                       </div>
                       <div className="mt-4 p-2 text-center">
                         <p className="text-lg font-semibold text-gray-900 dark:text-white">
-                          Vestibular FATEC 2026
+                          Vestibular FATEC
                         </p>
                         <p className="text-sm text-gray-600 dark:text-gray-400 mt-1 group-hover:text-primary transition-colors">
                           Inscreva-se já!
